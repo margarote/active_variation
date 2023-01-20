@@ -1,16 +1,15 @@
-# variacao
 
-A new Flutter project.
+### Observações
 
-## Getting Started
+#### Projeto desenvolvido em Flutter (Android e IOS) utilizando:
+	
+- Clean Architecture como padrão de arquitetura .
+- GetIT para injeção de dependência.
+- ValueNotifier para gerenciamento de estado. Propria gerencia de estados do flutter.
+- Dio para chamadas GET.
 
-This project is a starting point for a Flutter application.
+#### Feature:
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1 - Tela de Splash
+2 - Tela com o botão para apresentação da tabela com variação do preço dos ativos nos últimos 30 pregões.
+3 - Ao clicado o botão "Alterar" ele chama o MethodChannel, invocando o nativo em ambas plataformas (Android e IOS), abrindo um AlertDialog Nativo, ao selecionar ele muda o estado da tela.
