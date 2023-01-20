@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import '../core/consts/app_consts.dart';
 
-import '../core/screen/error_screen.dart';
+import '../core/widgets/button_closed_app.dart';
+import '../core/widgets/error_widget.dart';
 import '../modules/splash/presentation/screen/splash_screen.dart';
 import '../modules/variation/presentation/screen/variation_screen.dart';
 import 'effect_fade_route.dart';
@@ -22,5 +24,10 @@ PageRoute _getPageRoute(Widget child, RouteSettings settings) {
 }
 
 Route<dynamic>? onUnknownRoute(RouteSettings settings) {
-  return _getPageRoute(const ErrorScreen(), settings);
+  return _getPageRoute(
+      const ErrorCoreWidget(
+        message: AppConsts.errorNotFoundPage,
+        buttons: [ButtonClosedApp()],
+      ),
+      settings);
 }
