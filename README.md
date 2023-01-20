@@ -1,7 +1,7 @@
 
 ### Observações
 
-#### Projeto desenvolvido em Flutter (Android e IOS) utilizando:
+#### Projeto desenvolvido em Flutter e (Android e IOS) utilizando:
 	
 - Clean Architecture como padrão de arquitetura .
 - GetIT para injeção de dependência.
