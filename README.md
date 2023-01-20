@@ -10,6 +10,6 @@
 
 #### Feature:
 
-1 - Tela de Splash
-2 - Tela com o botão para apresentação da tabela com variação do preço dos ativos nos últimos 30 pregões.
-3 - Ao clicado o botão "Alterar" ele chama o MethodChannel, invocando o nativo em ambas plataformas (Android e IOS), abrindo um AlertDialog Nativo, ao selecionar ele muda o estado da tela.
+- Tela de Splash
+- Tela com o botão para apresentação da tabela com variação do preço dos ativos nos últimos 30 pregões.
+- Ao clicado o botão "Alterar" ele chama o MethodChannel, invocando o nativo em ambas plataformas (Android e IOS), abrindo um AlertDialog Nativo, ao selecionar ele muda o estado da tela.
